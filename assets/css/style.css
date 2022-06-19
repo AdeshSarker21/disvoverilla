@@ -1,0 +1,876 @@
+/*============
+ font-family: 'Cera Pro';
+=============*/
+* {
+    margin: 0;
+    padding: 0;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    outline: none;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    display: inline-block;
+}
+
+p,
+ul,
+li {
+    margin: 0;
+    padding: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+/*=========================================*/
+/*==========Start Header Section==========*/
+/*=========================================*/
+.wapper-one {
+    background: url(../images/bg-01.png)no-repeat scroll 0 0 / 100% 100%;
+    padding-bottom: 120px;
+}
+
+.main_header_area {}
+
+.menu_area {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex: 0 0 auto;
+}
+
+.logo {}
+
+.logo a {
+    display: inline-block;
+}
+
+.logo a img {}
+
+.menu {}
+
+.menu ul {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.menu ul li {}
+
+.menu ul li a {
+    font-family: 'Cera Pro';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 25px;
+    color: #FFFFFF;
+    padding: 12px;
+}
+
+.contact {
+    position: relative;
+    z-index: 999;
+}
+
+.contact button {
+    border: none;
+    background: none;
+}
+
+.contact button a {
+    font-family: 'Cera Pro';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 25px;
+    color: #FFFFFF;
+    display: inline-block;
+    color: #fff;
+    background: #2D91FF;
+    border-radius: 100px;
+    border: 1px solid #0689FF;
+    padding: 15px 30px;
+}
+
+.contact button a:hover {
+    background: #fff;
+    color: #2D91FF;
+}
+
+.responsive_header {
+    display: none;
+}
+
+/*Custon Btn Start*/
+.custom_btn {}
+
+.custom_btn button {
+    border: none;
+    background: none;
+}
+
+.custom_btn button a {
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 24px;
+    display: inline-block;
+    color: #1A129F;
+    background-color: #fff;
+    padding: 20px 40px;
+    border-radius: 5px;
+    box-shadow: 0px 5px 10px 0px #a6a2e3;
+    border: 1px solid #1A129F;
+}
+
+.custom_btn button a:hover {
+    background-color: #1A129F;
+    color: #fff;
+}
+
+/*Custon Btn End*/
+/*=========================================*/
+/*===========End Header Section===========*/
+/*=========================================*/
+/*=========================================*/
+/*============Start Hero Section============*/
+/*=========================================*/
+.main_hero_area {
+    padding: 217px 0px 240px;
+}
+
+.hero_left {}
+
+.hero_left h1 {
+    font-family: 'Cera Pro';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 80px;
+    color: #FFFFFF;
+}
+
+.hero_left p {
+    font-family: 'Cera Pro';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 30px;
+    color: #FFFFFF;
+    opacity: 0.6;
+    padding: 40px 0px;
+}
+
+.hero_left button {
+    border: none;
+    background: none;
+}
+
+.hero_left button a {
+    font-family: 'Cera Pro';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 30px;
+    color: #FFFFFF;
+    display: inline-block;
+    padding: 24px 58px;
+    border: 4px solid #FFFFFF;
+    border-radius: 50px;
+}
+
+.hero_right {
+    background: #202028;
+    backdrop-filter: blur(300px);
+    border-radius: 30px;
+    padding: 45px;
+}
+
+.count_heading {}
+
+.count_heading h3 {
+    font-family: 'Cera Pro';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 169.5%;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.join_btn {
+    text-align: center;
+}
+
+.join_btn button {
+    border: none;
+    background: none;
+    font-family: 'Cera Pro';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 25px;
+    text-align: center;
+    color: #FFFFFF;
+    padding: 17px 29px;
+    background: #2D91FF;
+    border-radius: 100px;
+}
+
+/*=========================================*/
+/*============Start Hero Section============*/
+/*=========================================*/
+/*=========================================*/
+/*============Start Summary Section========*/
+/*=========================================*/
+.wapper-two {
+    background-color: #000000;
+    padding-top: 50px;
+}
+
+.main_summary_section {
+    margin-top: -250px;
+}
+
+.summary_heading {
+    text-align: center;
+    margin-bottom: 77px;
+}
+
+.summary_heading h2 {
+    font-family: 'Cera Pro';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 80.9%;
+    color: #2D91FF;
+}
+
+.summary_item {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    width: 48%;
+    background: rgba(5, 14, 37, 0.7);
+    border: 8px solid #2D91FF;
+    backdrop-filter: blur(300px);
+    border-radius: 30px;
+    padding: 66px 0px 0px 43px;
+    margin-bottom: 40px;
+}
+
+.summary_item_text {
+    padding-bottom: 70px;
+}
+
+.summary_item_text h3 {
+    font-family: 'Cera Pro';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 40px;
+    color: #FFFFFF;
+}
+
+.summary_item_text p {
+    font-family: 'Cera Pro';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 169.5%;
+    color: #FFFFFF;
+}
+
+.summary_item_img {}
+
+.summary_item_img img {
+    width: 100%;
+    width: 216px;
+    height: 216px;
+    border-radius: 50%;
+}
+
+/*=========================================*/
+/*============Start Summary Section========*/
+/*=========================================*/
+/*=========================================*/
+/*============Start About us Section========*/
+/*=========================================*/
+.wapper-three {}
+
+.about_us_area_start {
+    background: url(../images/bg-02.png)no-repeat scroll 0 0 / 100% 100%;
+    position: relative;
+    padding: 90px 0px;
+    z-index: 1;
+}
+
+.about_us_area_start:after {
+    content: "";
+    clear: both;
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background: #000;
+    opacity: 0.7;
+    z-index: -1;
+}
+
+.about_us {}
+
+.about_us h1 {
+    font-family: 'Cera Pro';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 114.9%;
+    color: #2D91FF;
+    padding-bottom: 30px;
+}
+
+.about_us p {
+    font-family: 'Cera Pro';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 23px;
+    color: #FFFFFF;
+}
+
+.with_us {
+    background: #2D91FF;
+    opacity: 0.8;
+    border: 8px solid #FFFFFF;
+    border-radius: 30px;
+    padding: 50px 20px 20px 40px;
+}
+
+.with_us h1 {
+    font-family: 'Cera Pro';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 114.9%;
+    color: #FFFFFF;
+    margin-bottom: 40px;
+}
+
+.with_us_details {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.with_us_details ul {}
+
+.with_us_details ul li {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+.with_us_details ul li img {
+    margin-right: 15px;
+}
+
+.with_us_details ul li p {
+    font-family: 'Cera Pro';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 15px;
+    line-height: 23px;
+    color: #FFFFFF;
+}
+
+/*=========================================*/
+/*============End About us Section========*/
+/*=========================================*/
+/*=========================================*/
+/*===========Start Graph Section==========*/
+/*=========================================*/
+.whole_donut_wrap {
+    background: #000000;
+    margin: 0;
+    padding: 0;
+    padding: 20px 0px;
+    position: relative;
+}
+
+.main_chart {
+    background: #000000;
+    z-index: 3;
+}
+
+.donut_main {
+    margin: auto;
+    background: #000000 !important;
+    /* z-index:2; */
+}
+
+.donut_title {
+    color: white;
+    text-align: center;
+}
+
+.gray {
+    height: 20px;
+    width: 20px;
+    border-radius: 4px;
+    position: absolute;
+    left: 10%;
+    top: 55%;
+    background: #C4CBAD;
+    filter: blur(3px) !important;
+    z-index: 1;
+}
+
+.gray2 {
+    height: 20px;
+    width: 20px;
+    border-radius: 4px;
+    position: absolute;
+    right: 15%;
+    top: 45%;
+    background: #C4CBAD;
+    filter: blur(3px) !important;
+    z-index: 1;
+}
+
+.blue {
+    height: 40px;
+    width: 40px;
+    border-radius: 10px;
+    position: absolute;
+    left: 20%;
+    top: 35%;
+    background: #2D91FF;
+    filter: blur(3px) !important;
+    z-index: 1;
+}
+
+.blue2 {
+    height: 40px;
+    width: 40px;
+    border-radius: 10px;
+    position: absolute;
+    right: 26%;
+    bottom: 35%;
+    background: #2D91FF;
+    filter: blur(3px) !important;
+    z-index: 1;
+}
+
+.pink {
+    height: 60px;
+    width: 60px;
+    border-radius: 10px;
+    position: absolute;
+    left: 15%;
+    bottom: 20%;
+    background: #9450E6;
+    filter: blur(4px) !important;
+    z-index: 1;
+}
+
+.pink2 {
+    height: 60px;
+    width: 60px;
+    border-radius: 10px;
+    position: absolute;
+    right: 20%;
+    top: 20%;
+    background: #9450E6;
+    filter: blur(4px) !important;
+}
+
+@media screen and (max-width:750px) {
+
+    .blue,
+    .blue2,
+    .pink,
+    .pink2,
+    .gray,
+    .gray2 {
+        display: none;
+    }
+}
+
+/*=========================================*/
+/*===========End Graph Section==========*/
+/*=========================================*/
+/*=========================================*/
+/*===========Start Our Project Section========*/
+/*=========================================*/
+.wapper-four {
+    background-color: #0f0f0f;
+    padding: 100px 0px;
+}
+
+.our_project_section {}
+
+.our_project_heading {
+    text-align: center;
+    padding-bottom: 50px;
+}
+
+.our_project_heading h1 {
+    font-family: 'Cera Pro';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 80.9%;
+    color: #FFFFFF;
+    padding-bottom: 30px;
+}
+
+.our_project_heading p {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 27px;
+    text-align: center;
+    color: #FFFFFF;
+    width: 80%;
+    margin: 0 auto;
+}
+
+.project_item {
+    margin-bottom: 30px;
+}
+
+.project_img {
+    border: 8px solid transparent;
+    border-radius: 30px;
+    position: relative;
+}
+
+.hover_box {
+    position: absolute;
+    top: 7%;
+    left: 7%;
+    height: 85%;
+    width: 85%;
+    background: rgba(8, 0, 16, 0.7);
+    border-radius: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    visibility: hidden;
+    display: block;
+}
+
+.hover_box p {
+    font-family: 'Cera Pro';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 80.9%;
+    text-align: center;
+    color: #FFFFFF;
+    display: block;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 90px;
+    text-transform: uppercase;
+}
+
+.project_img:hover .hover_box {
+    visibility: visible;
+}
+
+.project_img img {
+    width: 100%;
+    border-radius: 30px;
+    border: 8px solid transparent;
+}
+
+.project_img img:hover {
+    border: 8px solid #2D91FF;
+    border-radius: 30px;
+}
+
+.project_img:hover.project_img img {
+    border: 8px solid #2D91FF;
+    border-radius: 30px;
+}
+
+.project_img:hover .hover_box {
+    visibility: visible;
+}
+
+/*=========================================*/
+/*===========End Our Project Section========*/
+/*=========================================*/
+/*=========================================*/
+/*============Start Team Section===========*/
+/*=========================================*/
+.meet_team_area {}
+
+.our_project_heading {}
+
+.team_member {
+    text-align: center;
+}
+
+.team_member img {
+    width: 100%;
+    height: auto;
+}
+
+.team_member h3 {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 80.9%;
+    color: #FFFFFF;
+    padding: 30px 0px 20px;
+}
+
+.team_member p {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 80.9%;
+    color: #FFFFFF;
+}
+
+/*=========================================*/
+/*==============End Team Section===========*/
+/*=========================================*/
+/*=========================================*/
+/*===========Start Contact Form Section=====*/
+/*=========================================*/
+.main_contact_form {
+    padding-top: 100px;
+}
+
+.get_touch {
+    background: #2D91FF;
+    border-radius: 8px;
+    padding: 88px 180px 54px 65px;
+}
+
+.get_touch h1 {
+    font-family: 'Cera Pro';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 64px;
+    color: #FFFFFF;
+}
+
+.get_touch p {
+    font-family: 'Cera Pro';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 150%;
+    color: #FFFFFF;
+    padding-bottom: 88px;
+}
+
+.contact_item {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin-bottom: 65px;
+}
+
+.c_icon {
+    margin-right: 20px;
+}
+
+.c_icon img {
+    height: 64px;
+    width: 64px;
+}
+
+.c_text {}
+
+.c_text h6 {
+    font-family: 'Cera Pro';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 150%;
+    color: #FFFFFF;
+    padding-bottom: 8px;
+}
+
+.c_text a {
+    font-family: 'Cera Pro';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 32px;
+    color: #FFFFFF;
+}
+
+.contact_form {
+    padding-left: 40px;
+}
+
+.contact_form_headig {}
+
+.contact_form_headig h5 {
+    font-family: 'Cera Pro';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 32px;
+    color: #FFFFFF;
+    padding-bottom: 24px;
+}
+
+.form_group {
+    margin-bottom: 24px;
+}
+
+.form_group label {
+    font-family: 'Cera Pro';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 150%;
+    color: #CFD3D7;
+    margin-bottom: 8px;
+}
+
+.form_group input {
+    background: none;
+    border: none;
+    font-family: 'Cera Pro';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 150%;
+    color: #3A86FF;
+    background: #FFFFFF;
+    border: 1px solid #3A86FF;
+    border-radius: 8px;
+    width: 100%;
+    padding: 16px;
+}
+
+.form_group textarea {
+    background: none;
+    border: none;
+    font-family: 'Cera Pro';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 150%;
+    color: #3A86FF;
+    background: #FFFFFF;
+    border: 1px solid #3A86FF;
+    border-radius: 8px;
+    width: 100%;
+    padding: 16px;
+    height: 100px;
+}
+
+.submit input {
+    background: none;
+    border: none;
+    font-family: 'Cera Pro';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 150%;
+    text-align: center;
+    color: #F2F4F5;
+    width: 60%;
+    padding: 24px 74px;
+    background: #2D91FF;
+    border-radius: 100px;
+}
+
+/*=========================================*/
+/*==========End Contact Form Section========*/
+/*=========================================*/
+.main_footer_area {
+    background: #202028;
+    padding: 96px 0px 74px;
+}
+
+.footer_menu {}
+
+.footer_menu ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer_menu ul li {}
+
+.footer_menu ul li a {
+    font-family: 'Cera Pro';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 180%;
+    color: #FFFFFF;
+    opacity: 0.4;
+    padding: 0px 25px;
+}
+
+.footer_menu ul li:hover a {
+    opacity: 1;
+}
+
+.social_media {
+    padding: 51px 0px 28px;
+}
+
+.social_media ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.social_media ul li {
+    margin: 0px 10px;
+}
+
+.social_media ul li a {}
+
+.social_media ul li a img {
+    height: 48px;
+    width: 48px;
+    border-radius: 50%;
+}
+
+.copyright {}
+
+.copyright p {
+    font-family: 'Cera Pro';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 23px;
+    text-align: center;
+    color: #FFFFFF;
+}

@@ -1,0 +1,607 @@
+<!DOCTYPE html>
+<html lang="">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Discoverilla</title>
+    <link rel="icon" href="assets/images/favicon.png" type="image/gif" sizes="16x16">
+    <!-- chart js link -->
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <!--Bootstrap CDN Link-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!--AOS Animation-->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <!--Main Stylesheet-->
+    <link rel="stylesheet" href="assets/css/font-family.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/menu.css">
+    <link rel="stylesheet" href="assets/css/responsive.css">
+    <!--CounDown-->
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js" crossorigin="anonymous"></script>
+    <link href="assets/css/countdown/style.css" rel="stylesheet">
+    <script type="text/javascript" src="assets/js/multi-countdown.js"></script>
+    <script>
+        /* Count Down */
+        var date = new Date(); // Now
+        date.setDate(date.getDate() + 30); // Set now + 30 days as the new date
+        const ye = new Intl.DateTimeFormat('en', {
+            year: 'numeric'
+        }).format(date);
+        const mo = new Intl.DateTimeFormat('en', {
+            month: 'numeric'
+        }).format(date);
+        const da = new Intl.DateTimeFormat('en', {
+            day: '2-digit'
+        }).format(date);
+        const dateText = ye + '/' + mo + '/' + da;
+    </script>
+</head>
+
+<body>
+    <div class="wapper-one">
+        <!--========Start Header Area=========-->
+        <header class="main_header_area">
+            <div class="container">
+                <div class="row">
+                    <nav class="menu_area col-12">
+                        <div class="logo">
+                            <a href="index.html">
+                                <img src="assets/images/logo.svg" alt="logo">
+                            </a>
+                        </div>
+                        <div class="menu">
+                            <ul>
+                                <li><a href="#summary">SUMMARY </a></li>
+                                <li><a href="#about">ABOUT</a></li>
+                                <li><a href="#tokenomics">TOKENOMICS</a></li>
+                                <li><a href="#project">INFO</a></li>
+                                <li><a href="#team">TEAM</a></li>
+                                <li><a href="#contact">CONTACT</a></li>
+                            </ul>
+                        </div>
+                        <div class="contact">
+                            <button><a href="#" style="margin-right: 10px;">APP</a></button>
+                            <button><a href="#">WHITEPAPER</a></button>
+                        </div>
+                    </nav>
+                </div>
+            </div>
+        </header>
+        <!--Responsive Header Area Start-->
+        <header class="header responsive_header">
+            <a href="index.html" class="logo"><img src="assets/images/logo.svg" alt="logo"></a>
+            <input class="menu-btn" type="checkbox" id="menu-btn" />
+            <label class="menu-icon" for="menu-btn"><span class="navicon"></span></label>
+            <ul class="menu">
+                <li><a href="#sumarry">SUMMARY </a></li>
+                <li><a href="#about">ABOUT</a></li>
+                <li><a href="#tokenomics">TOKENOMICS</a></li>
+                <li><a href="#project">INFO</a></li>
+                <li><a href="#team">TEAM</a></li>
+                <li><a href="#contact">CONTACT</a></li>
+                <li><a href="#">APP</a></li>
+                <li><a href="#">WHITEPAPER</a></li>
+            </ul>
+        </header>
+        <!--Responsive Header Area Start-->
+        <!--========End Header Area=========-->
+        <!--========End Hero Area=========-->
+        <section class="main_hero_area">
+            <div class="container">
+                <div class="row align-items-center">
+                    <!--Hero left-->
+                    <div class="hero_left col-lg-6 col-12" data-aos="fade-up">
+                        <h1>Discoverilla</h1>
+                        <p>The first decentalized ADS platform based on NFT. Discoverilla is the best rocket launch site that will take you to the Rocket Fuel - $DISCOVER</p>
+                        <button><a href="#">LEARN MORE</a></button>
+                    </div>
+                    <!--///End Hero left-->
+                    <!--Hero right-->
+                    <div class="hero_right col-lg-6 col-12" data-aos="fade-down">
+                        <!--heading countdown-->
+                        <div class="count_heading">
+                            <h3>Rocket Fuel - $DISCOVER Fair Launch on PinkSale</h3>
+                        </div>
+                        <!--///End heading countdown-->
+                        <!--Start CountDown-->
+                        <div class="young-passion-gradient">
+                            <div class="hero">
+                                <div class="row">
+                                    <div class="col-lg">
+                                        <div class="countdown hero_count" data-Date='2020/12/10 13:37:53'>
+                                            <script>
+                                                $('.hero_count').attr('data-date', dateText);
+                                            </script>
+                                            <div class="running">
+                                                <timer>
+                                                    <span class="days"></span>:<span class="hours"></span>:<span class="minutes"></span>:<span class="seconds"></span>
+                                                </timer>
+                                                <div class="break"></div>
+                                                <div class="labels">
+                                                    <span>Days</span><span>Hours</span><span>Minutes</span><span>Seconds</span>
+                                                </div>
+                                                <div class="break"></div>
+                                            </div>
+                                            <div class="ended">
+                                                <div class="text">Time is ended</div>
+                                                <div class="break"></div>
+                                                <button>Suscribe for next event!</button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!--/// End Start CountDown-->
+                        <!--Join Please Btn-->
+                        <div class="join_btn">
+                            <button>JOIN PRESALE</button>
+                        </div>
+                        <!--/// End Join Please Btn-->
+                    </div>
+                    <!--///End Hero right-->
+                </div>
+            </div>
+        </section>
+        <!--========End Hero Area=========-->
+    </div>
+    <!--End Wapper One-->
+    <!--Start Wapper Two-->
+    <div class="wapper-two">
+        <!--========Start Summary Area=========-->
+        <section id="summary" class="main_summary_section">
+            <div class="container">
+                <div class="row justify-content-between">
+                    <!--Summary heading-->
+                    <div class="summary_heading">
+                        <h2>SUMMARY</h2>
+                    </div>
+                    <!--///End Summary heading-->
+                    <!--Summary item-->
+                    <div class="summary_item col-lg-6 col-12" data-aos="fade-down">
+                        <div class="summary_item_text">
+                            <h3>$Discover</h3>
+                            <p>$DISCOVER serves as the native currency for Discoverilla, the fuel that will run the entire ecosystem.</p>
+                        </div>
+                        <div class="summary_item_img">
+                            <img src="assets/images/icon-01.svg" alt="icon">
+                        </div>
+                    </div>
+                    <!--/// End Summary item-->
+                    <!--Summary item-->
+                    <div class="summary_item col-lg-6 col-12" data-aos="fade-up">
+                        <div class="summary_item_text">
+                            <h3>Gorilla NFT</h3>
+                            <p>Our smart upgradeable NFT collection
+                                of 9,999 Gorilla NFTs will definitely take
+                                you to the moon.</p>
+                        </div>
+                        <div class="summary_item_img">
+                            <img src="assets/images/icon-02.svg" alt="icon">
+                        </div>
+                    </div>
+                    <!--/// End Summary item-->
+                    <!--Summary item-->
+                    <div class="summary_item col-lg-6 col-12" data-aos="fade-down">
+                        <div class="summary_item_text">
+                            <h3>Discoverilla Metaverse</h3>
+                            <p>Usually, one buys an NFT and that’s it. With Discoverilla, all the NFTs are hoisted on “advertising boards” that form a part of our
+                                unique 3D Galaxy space.</p>
+                        </div>
+                        <div class="summary_item_img">
+                            <img src="assets/images/icon-03.svg" alt="icon">
+                        </div>
+                    </div>
+                    <!--/// End Summary item-->
+                    <!--Summary item-->
+                    <div class="summary_item col-lg-6 col-12" data-aos="fade-up">
+                        <div class="summary_item_text">
+                            <h3>Manage your own spot</h3>
+                            <p>With larger advertising space, one is
+                                guaranteed more visibility in the 3D
+                                Galaxy Discoverilla Metaverse, hence
+                                higher pricing for their work.</p>
+                        </div>
+                        <div class="summary_item_img">
+                            <img src="assets/images/icon-04.svg" alt="icon">
+                        </div>
+                    </div>
+                    <!--/// End Summary item-->
+                </div>
+            </div>
+        </section>
+        <!--========End Summary Area=========-->
+    </div>
+    <!--End Wapper Two-->
+    <!--Start Wapper Three-->
+    <div class="wapper-three">
+        <!--========Start About Us Area=========-->
+        <section id="about" class="about_us_area_start">
+            <div class="container">
+                <div class="row">
+                    <!--About us-->
+                    <div class="about_us col-lg-6 col-12" data-aos="fade-down">
+                        <h1>ABOUT US</h1>
+                        <p>Discoverilla is the first decentralized ADS platform based on NFT. Today, celebrities, billionaires, corporations and all sorts of financially literate individuals are clawing their way into the NFT realm to make a kill out of the now better understood multi-billion community. Massive adoption has characterized the last couple of months with all sorts of content creators taking a piece of the pie. Amidst all this rat race, there is the need to not just have ownership of digital assets, but to passively earn from them. Some projects have incorporated NFT assets into gaming and other metaverse projects, but the potential is still infinite. Discoverilla ushers in a never before explored avenue that allows NFT owners to determine how much they make from their custom art pieces, as well as a host of revenue streams.</p>
+                    </div>
+                    <!--/// End About us-->
+                    <!--With us-->
+                    <div class="with_us col-lg-6 col-12" data-aos="fade-up">
+                        <h1>WHY US</h1>
+                        <!--With us detials-->
+                        <div class="with_us_details">
+                            <ul>
+                                <li><img src="assets/images/thik-mark.svg" alt="img">
+                                    <p>Ethics and Transparent Team</p>
+                                </li>
+                                <li><img src="assets/images/thik-mark.svg" alt="img">
+                                    <p>Fully Doxed</p>
+                                </li>
+                                <li><img src="assets/images/thik-mark.svg" alt="img">
+                                    <p>Professional Engineers</p>
+                                </li>
+                                <li><img src="assets/images/thik-mark.svg" alt="img">
+                                    <p>Well Prepared Marketing</p>
+                                </li>
+                            </ul>
+                            <ul>
+                                <li><img src="assets/images/thik-mark.svg" alt="img">
+                                    <p>First NFT based ADS Platform</p>
+                                </li>
+                                <li><img src="assets/images/thik-mark.svg" alt="img">
+                                    <p>Moon with Gorillas NFT</p>
+                                </li>
+                                <li><img src="assets/images/thik-mark.svg" alt="img">
+                                    <p>Info knowledge database</p>
+                                </li>
+                                <li><img src="assets/images/thik-mark.svg" alt="img">
+                                    <p>Exclusive partnerships</p>
+                                </li>
+                            </ul>
+                        </div>
+                        <!--/// End with us detials-->
+                    </div>
+                    <!--/// End With us-->
+                </div>
+            </div>
+        </section>
+        <!--========End About Us Area=========-->
+    </div>
+    <!--End Wapper Three-->
+    <!--========Start Graph Area=========-->
+    <section id="tokenomics" class="whole_donut_wrap">
+        <div class="container for_blur">
+            <div class="row">
+                <div class="col-12">
+                    <div class="main_chart">
+                        <h2 class="donut_title">TOKENOMICS</h2>
+                        <canvas id="doughnut" class="donut_main"> </canvas>
+                    </div>
+                    <div class="gray"></div>
+                    <div class="gray2"></div>
+                    <div class="blue"></div>
+                    <div class="blue2"></div>
+                    <div class="pink"></div>
+                    <div class="pink2"></div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--========End Graph Area=========-->
+    <!--Start Wapper Four-->
+    <div class="wapper-four">
+        <!--========Start Our Project Area=========-->
+        <section id="project" class="our_project_section">
+            <div class="container">
+                <div class="row">
+                    <!--Our project Heading-->
+                    <div class="our_project_heading">
+                        <h1>OUR PROJECTS</h1>
+                        <p>At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias</p>
+                    </div>
+                    <!--/// End Our project Heading-->
+                    <!--Project item-->
+                    <div class="project_item col-lg-4 col-md-6 col-12" data-aos="fade-down">
+                        <div class="project_img">
+                            <img src="assets/images/project-01.png" alt="">
+                            <a href="https://sales.discoverilla.com/" class="hover_box">
+                                <p>Project Name</p>
+                            </a>
+                        </div>
+                    </div>
+                    <!--/// End Project item-->
+                    <!--Project item-->
+                    <div class="project_item col-lg-4 col-md-6 col-12" data-aos="fade-up">
+                        <div class="project_img">
+                            <img src="assets/images/project-02.png" alt="">
+                            <a href="https://sales.discoverilla.com/" class="hover_box">
+                                <p>White Paper</p>
+                            </a>
+                        </div>
+                    </div>
+                    <!--/// End Project item-->
+                    <!--Project item-->
+                    <div class="project_item col-lg-4 col-md-6 col-12" data-aos="fade-down">
+                        <div class="project_img">
+                            <img src="assets/images/project-03.png" alt="">
+                            <a href="https://sales.discoverilla.com/" class="hover_box">
+                                <p>Project Name</p>
+                            </a>
+                        </div>
+                    </div>
+                    <!--/// End Project item-->
+                    <!--Project item-->
+                    <div class="project_item col-lg-4 col-md-6 col-12" data-aos="fade-up">
+                        <div class="project_img">
+                            <img src="assets/images/project-04.png" alt="">
+                            <a href="https://sales.discoverilla.com/" class="hover_box">
+                                <p>Project Name</p>
+                            </a>
+                        </div>
+                    </div>
+                    <!--/// End Project item-->
+                    <!--Project item-->
+                    <div class="project_item col-lg-4 col-md-6 col-12" data-aos="fade-down">
+                        <div class="project_img">
+                            <img src="assets/images/project-05.png" alt="">
+                            <a href="https://sales.discoverilla.com/" class="hover_box">
+                                <p>Project Name</p>
+                            </a>
+                        </div>
+                    </div>
+                    <!--/// End Project item-->
+                    <!--Project item-->
+                    <div class="project_item col-lg-4 col-md-6 col-12" data-aos="fade-up">
+                        <div class="project_img">
+                            <img src="assets/images/project-06.png" alt="">
+                            <a href="https://sales.discoverilla.com/" class="hover_box">
+                                <p>Project Name</p>
+                            </a>
+                        </div>
+                    </div>
+                    <!--/// End Project item-->
+                </div>
+            </div>
+        </section>
+        <!--========End Our Project Area=========-->
+        <!--========End Our Team Area=========-->
+        <section id="team" class="meet_team_area">
+            <div class="container">
+                <div class="row">
+                    <!--Our Team Heading-->
+                    <div class="our_project_heading">
+                        <h1>MEET THE TEAM</h1>
+                        <p>At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias</p>
+                    </div>
+                    <!--/// End Our Team Heading-->
+                    <!--Team Member item-->
+                    <div class="team_member col-lg-3 col-md-6 col-sm-6 col-12" data-aos="fade-down">
+                        <img src="assets/images/t-01.png" alt="img">
+                        <h3>Jovanni Llewelly</h3>
+                        <p>Co-founder</p>
+                    </div>
+                    <!--/// End Team Member item-->
+                    <!--Team Member item-->
+                    <div class="team_member col-lg-3 col-md-6 col-sm-6 col-12" data-aos="fade-up">
+                        <img src="assets/images/t-02.png" alt="img">
+                        <h3>Bjoern Wedler</h3>
+                        <p>Co-founder</p>
+                    </div>
+                    <!--/// End Team Member item-->
+                    <!--Team Member item-->
+                    <div class="team_member col-lg-3 col-md-6 col-sm-6 col-12" data-aos="fade-down">
+                        <img src="assets/images/t-03.png" alt="img">
+                        <h3>Davion Wiliam</h3>
+                        <p>Technical Leader</p>
+                    </div>
+                    <!--/// End Team Member item-->
+                    <!--Team Member item-->
+                    <div class="team_member col-lg-3 col-md-6 col-sm-6 col-12" data-aos="fade-up">
+                        <img src="assets/images/t-04.png" alt="img">
+                        <h3>Gregg Martin</h3>
+                        <p>Ambassador</p>
+                    </div>
+                    <!--/// End Team Member item-->
+                </div>
+            </div>
+        </section>
+        <!--========End Our Team Area=========-->
+        <!--========Start Contact Form Area=========-->
+        <section id="contact" class="main_contact_form">
+            <div class="container">
+                <div class="row align-items-center">
+                    <!--Get Touch-->
+                    <div class="get_touch col-lg-6 col-12" data-aos="fade-down">
+                        <h1>Get in Touch</h1>
+                        <p>Lorem ipsum dolor sit amet, consectetur
+                            adipiscing elit, sed do eiusmod.</p>
+                        <!--contact item-->
+                        <div class="contact_item">
+                            <div class="c_icon">
+                                <img src="assets/images/c-icon-01.svg" alt="logo">
+                            </div>
+                            <div class="c_text">
+                                <h6>Number</h6>
+                                <a href="tel:(62) 1829017">(62) 1829017</a>
+                            </div>
+                        </div>
+                        <!--///End contact item-->
+                        <!--contact item-->
+                        <div class="contact_item">
+                            <div class="c_icon">
+                                <img src="assets/images/c-icon-02.svg" alt="logo">
+                            </div>
+                            <div class="c_text">
+                                <h6>Email</h6>
+                                <a href="mailto:hello@studio.co">Hello@studio.co</a>
+                            </div>
+                        </div>
+                        <!--///End contact item-->
+                        <!--contact item-->
+                        <div class="contact_item">
+                            <div class="c_icon">
+                                <img src="assets/images/c-icon-03.svg" alt="logo">
+                            </div>
+                            <div class="c_text">
+                                <h6>Map Street</h6>
+                                <a href="#">John Bucarest St. 199</a>
+                            </div>
+                        </div>
+                        <!--///End contact item-->
+                    </div>
+                    <!--/// End Get Touch-->
+                    <!--Contact Form-->
+                    <div class="contact_form col-lg-6 col-12" data-aos="fade-up">
+                        <div class="contact_form_headig">
+                            <h5>Come and Join Us</h5>
+                        </div>
+                        <!--form-->
+                        <form action="">
+                            <!--form group-->
+                            <div class="form_group">
+                                <label for="">First Name</label>
+                                <input type="text" placeholder="Enter your first name">
+                            </div>
+                            <!--/// End form group-->
+                            <!--form group-->
+                            <div class="form_group">
+                                <label for="">Last Name</label>
+                                <input type="text" placeholder="Enter your last name">
+                            </div>
+                            <!--/// End form group-->
+                            <!--form group-->
+                            <div class="form_group">
+                                <label for="">Your Email</label>
+                                <input type="text" placeholder="Enter your email">
+                            </div>
+                            <!--/// End form group-->
+                            <!--form group-->
+                            <div class="form_group">
+                                <label for="">Message</label>
+                                <textarea name="" id="" cols="" rows="" placeholder="Write your message"></textarea>
+                            </div>
+                            <!--/// End form group-->
+                            <!--form group-->
+                            <div class="form_group submit">
+                                <input type="submit" value="SEND MESSAGE">
+                            </div>
+                            <!--/// End form group-->
+                        </form>
+                        <!--//// End form-->
+                    </div>
+                    <!--/// End Contact Form-->
+                </div>
+            </div>
+        </section>
+        <!--========End Contact Form Area=========-->
+    </div>
+    <!--End Wapper Four-->
+    <!--End Wapper Five-->
+    <div class="wapper-five">
+        <!--========Start Footer Area=========-->
+        <footer class="main_footer_area">
+            <div class="container">
+                <div class="row">
+                    <!--Footer Menu-->
+                    <div class="footer_menu" data-aos="fade-up">
+                        <ul>
+                             <li><a href="#summary">SUMMARY </a></li>
+                                <li><a href="#about">ABOUT</a></li>
+                                <li><a href="#tokenomics">TOKENOMICS</a></li>
+                                <li><a href="#project">INFO</a></li>
+                                <li><a href="#team">TEAM</a></li>
+                        </ul>
+                    </div>
+                    <!--/// End Footer Menu-->
+                    <!--Social Media-->
+                    <div class="social_media" data-aos="fade-down">
+                        <ul>
+                            <li><a href="#"><img src="assets/images/twitter.svg" alt="icon"></a></li>
+                            <li><a href="#"><img src="assets/images/telegram.svg" alt="icon"></a></li>
+                            <li><a href="#"><img src="assets/images/instagram.svg" alt="icon"></a></li>
+                            <li><a href="#"><img src="assets/images/gihthub.svg" alt="icon"></a></li>
+                            <li><a href="#"><img src="assets/images/m.svg" alt="icon"></a></li>
+                            <li><a href="#"><img src="assets/images/discord.svg" alt="icon"></a></li>
+                            <li><a href="#"><img src="assets/images/web.svg" alt="icon"></a></li>
+                        </ul>
+                    </div>
+                    <!--/// End Social Media-->
+                    <!--copyright-->
+                    <div class="copyright">
+                        <p>© 2022 NFT. All Rights Reserved.</p>
+                    </div>
+                    <!--/// End copyright-->
+                </div>
+            </div>
+        </footer>
+        <!--========End Footer Area=========-->
+    </div>
+    <!--End Wapper Five-->
+    <!-- donut chart start -->
+    <script>
+        const dataDoughnut = {
+            labels: [
+                "FairLaunch",
+                "Farm&Staking",
+                "Platform Incentive",
+                "Partnership",
+                "CEX Listing",
+                "Development",
+                "Airdop",
+            ],
+            datasets: [{
+                label: "# of Votes",
+                data: [80, 36, 32, 22, 12, 16, 5],
+                backgroundColor: [
+                    "#2BBBAD",
+                    "#4285F4",
+                    "#AA66CC",
+                    "#00695C",
+                    "#0D47A1",
+                    "#007E33",
+                    "#9933CC",
+                ],
+                borderColor: ["white", "white", "white", "white", "white", "white"],
+                cutout: "40",
+            }, ],
+        };
+        // config
+        const doughnutConfig = {
+            type: "doughnut",
+            data: dataDoughnut,
+            options: {
+                responsive: false,
+                maintainAspectRatio: false,
+                plugins: {
+                    legend: {
+                        position: "right",
+                        align: "center",
+                        fontSize: "15",
+                        color: 'red',
+                        labels: {
+                            pointStyle: "square",
+                            usePointStyle: false,
+                        },
+                        datalabels: {
+                            color: "red",
+                        },
+                    },
+                },
+            },
+        };
+        // data redering
+        const doughnut = new Chart(
+            document.getElementById("doughnut"),
+            doughnutConfig
+        );
+    </script>
+    <!-- donut chart start -->
+    <!--AOS Animation-->
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
+    <!--Bootstrap CDN js-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="assets/js/custom.js"></script>
+</body></html>

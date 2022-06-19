@@ -1,0 +1,279 @@
+@media only screen and (max-width: 3500px) and (min-width: 1992px) {
+        .container,
+    .container-lg,
+    .container-md,
+    .container-sm,
+    .container-xl,
+    .container-xxl {
+        max-width: 1650px;
+    }
+
+    
+    
+}
+
+
+@media only screen and (max-width: 1990px) and (min-width: 1401px) {
+    .menu ul li a {
+        font-size: 20px;
+    }
+
+    
+}
+
+@media only screen and (max-width: 1990px) and (min-width: 1801px) {
+
+    .container,
+    .container-lg,
+    .container-md,
+    .container-sm,
+    .container-xl,
+    .container-xxl {
+        max-width: 1650px;
+    }
+
+   
+
+}
+
+@media only screen and (max-width: 1800px) and (min-width: 1601px) {
+
+    .container,
+    .container-lg,
+    .container-md,
+    .container-sm,
+    .container-xl,
+    .container-xxl {
+        max-width: 1500px;
+    }
+
+    
+}
+
+@media only screen and (max-width: 1600px) and (min-width: 1401px) {
+   
+}
+@media only screen and (max-width: 1340px) and (min-width: 1200px){
+
+} 
+
+@media only screen and (max-width: 1199px) and (min-width: 992px) {
+
+
+    .contact button a {
+        padding: 20px 25px;
+    }
+    .menu ul li a {
+	padding: 15px 10px 13px;
+}
+    .menu ul li a {
+	
+	font-size: 15px;
+	
+}
+    .contact button a {
+	font-size: 15px;
+	line-height: 25px;
+
+	padding: 15px 20px;
+}
+    .with_us {
+	
+	padding: 50px 18px 20px 15px;
+}
+
+    .with_us_details ul li p {
+	font-size: 14px;
+
+}
+    .get_touch {
+	padding: 88px 100px 54px 65px;
+}
+   
+}
+
+@media only screen and (max-width: 1080px) and (min-width: 1080px) {
+
+}
+
+@media all and (max-width:991px) {
+    .menu_area {
+        display: none;
+    }
+
+    .responsive_header {
+        display: block;
+    }
+.main_hero_area {
+	padding: 20px 0px 240px;
+}
+    .hero_right{
+        margin-top: 40px;
+    }
+    .main_header_area {
+	background: transparent;
+	padding: 0px 0px;
+}
+    .header .menu-icon {
+
+	padding: 38px 20px;
+	
+}
+    .summary_item{
+        width: 97%;
+        margin: 0 auto;
+        margin-bottom: 40px;
+    }
+    .with_us{
+        margin-top: 40px;
+    }
+    .team_member{
+        margin-bottom: 40px;
+    }
+    .contact_form {
+	padding-left: 10px;
+	margin-top: 40px;
+}
+}
+
+@media all and (max-width:767px) {
+   .hero_left button a {
+	
+	font-size: 20px;
+	
+	padding: 15px 45px;
+	
+}
+        .summary_item_img img {
+
+	width: 180px;
+	height: 180px;
+
+}
+    .get_touch {
+	
+	padding: 88px 50px 54px 65px;
+}
+    .footer_menu ul li a {
+	
+	font-size: 17px;
+
+	padding: 0px 15px;
+}
+}
+
+@media all and (max-width:577px) {
+   .hero_left p {
+	
+	font-size: 19px;
+	padding: 20px 0px;
+}
+    .summary_item_img img {
+
+	width: 160px;
+	height: 160px;
+
+}
+    .with_us_details {
+
+	justify-content: flex-start;
+	align-items: flex-start;
+	flex-direction: column;
+}
+}
+
+@media all and (max-width:480px) {
+     .hero_left p {
+	
+	font-size: 17px;
+	padding: 20px 0px;
+         line-height: 24px;
+}
+        .summary_item_img img {
+
+	width: 140px;
+	height: 140px;
+
+}
+    .our_project_heading p {
+	
+	font-size: 16px;
+	
+	width: 100%;
+	margin: 0 auto;
+}
+    .submit input {
+	
+	padding: 24px 0px;
+	
+}
+    .footer_menu ul {
+
+	flex-wrap: wrap;
+}
+    .social_media ul {
+	
+	flex-wrap: wrap;
+}
+    .social_media ul li {
+	margin: 10px;
+}
+}
+
+@media all and (max-width:400px) {
+  .hero_left h1 {
+	
+	font-size: 50px;
+	line-height: 40px;
+}
+    .our_project_heading h1 {
+	
+	font-size: 38px;
+	
+}
+    .get_touch {
+	background: #2D91FF;
+	border-radius: 8px;
+	padding: 88px 20px 54px 20px;
+}
+}
+
+@media all and (max-width:375px) {
+      .hero_left p {
+	
+	font-size: 16px;
+	padding: 20px 0px;
+}
+    .summary_item {
+	
+	padding: 30px 0px 0px 10px;
+
+}
+    .c_text a {
+
+	font-size: 19px;
+	line-height: 32px;
+	
+}
+}
+
+@media only screen and (max-width: 375px) and (min-width: 375px) {
+   
+}
+
+@media only screen and (max-width: 360px) and (min-width: 360px) {
+   
+}
+
+@media all and (max-width:359px) {
+      .hero_left p {
+	
+	font-size: 14px;
+	padding: 20px 0px;
+}
+}
+
+@media all and (max-width:350px) {
+   
+
+}
